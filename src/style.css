@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+}
+
+
+.corpo{
+    
+
+    margin-top: 50px;
+    width: 800px;
+    height: 550px;
+    margin-right: 0;
+   
+  
+}
+
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    font-size: 40px;
+    font-weight: 800;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.kenzie{
+    margin-left: 8px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.programe{
+    margin-top: 45px;
+    margin-left: 10px;
+    width: 750px;
+    height: 290px;
+    border: 1px lightblue solid;
+    border-radius: 5px;
+    box-shadow:#366EF0 0 0 3px 3px;
+}
+
+.programe:hover{
+    transition: 1s;
+    transform: scale(1.02 );
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}

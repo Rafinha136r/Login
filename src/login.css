@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+ 
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+div {
+    border: 1px lightblue solid;
+    box-sizing: border-box;
+    width: 450px;
+    height: 550px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 25px;
+    box-shadow: #366EF0 0px 0px 1px 1px;
+    border-radius: 10px;
+    
+    
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 25px;
+
+
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-left: 160px;
+
+
+}
+
+h2 {
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 115px;
+    font-weight: 700;
+    font-size: 19px;
+
+}
+
+label {
+    padding: 15px;
+    padding-left: 110px;
+
+}
+
+input[type] {
+    margin-left: 110px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    border: 1px black solid;
+
+}
+
+button {
+    margin-left: 163px;
+    margin-top: 15px;
+    background-color: #366EF0 ;
+    border: 1px #366EF0 solid;
+    width: 70px;
+    box-shadow: #366EF0 0 0 2px 2px;
+    border-radius: 3px;
+    font-weight: 700;
+
+}
+
+P {
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-top: 55px;
+
+}
+
+.imgg {
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    padding-right: 5px;
+}
+
+.google {
+    margin-top: 35px;
+    margin-left: 118px;
+    width: 170px;
+    height: 18px;
+    background-color: #1394F0;
+    color: white;
+    text-align: right;
+    display: flex;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px #1394f0 solid;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+    margin-left: 1px;
+    margin-right: 3px;
+    padding-left: 0;
+    margin-left: none;
+    margin-bottom: none;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #68E043;
+    border-radius: 10px;
+    transition: 0.9s;
+    transform: scale(1.1);
+    border: 1px lightblue solid;
+    cursor: pointer;
+}
+
+.google:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color:#1394f0 ;
+}
+
+a:hover{
+    cursor: pointer; 
+   
+}
+
+input[type]:hover{
+    border: 1px green solid;
+   transform: scale(1.05);
+
+}
+
+div:hover{
+    transition: 0.8s;
+    transform: scale(1.05);
+    box-shadow: #366EF0 2px 0 2px 2px;
+}
+
+.input:focus{
+    border-color: #68E043;
+}
